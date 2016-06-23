@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FABActivity">
+
+    <include layout="@layout/toolbar_main" />
+
+    <com.demo.sfab.FloatingButton
+        android:id="@+id/fab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="300dp"
+        app:fabType="mini"
+        app:labelText="button4"
+        app:labelBackgroundColor="@color/magenta"
+        app:fabBackgroundColor="@color/yellow"
+        />
+
+    <com.demo.sfab.FloatingButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="230dp"
+        app:fabType="mini"
+        app:labelText="button3"
+        app:labelBackgroundColor="@color/magenta"
+        app:fabBackgroundColor="@color/green"
+        />
+
+    <com.demo.sfab.FloatingButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="160dp"
+        app:fabType="mini"
+        app:labelText="button2"
+        app:labelBackgroundColor="@color/magenta"
+        app:fabBackgroundColor="@color/cyan"
+        />
+
+    <com.demo.sfab.FloatingButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="90dp"
+        app:fabType="mini"
+        app:labelText="button1"
+        app:labelBackgroundColor="@color/magenta"
+        app:fabBackgroundColor="@color/blue"
+        />
+
+    <com.demo.sfab.FloatingButton
+        android:id="@+id/fabbase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:fabType="normal"
+        app:fabBackgroundColor="@color/red"
+        app:fabIconSrc="@android:drawable/ic_menu_more"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

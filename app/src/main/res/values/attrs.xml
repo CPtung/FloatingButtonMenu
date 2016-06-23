@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="fab">
+        <attr name="labelText" format="string" />
+        <attr name="labelBackgroundColor" format="integer" />
+        <attr name="fabType" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+        <attr name="fabBackgroundColor" format="color" />
+        <attr name="fabIconSrc" format="integer" />
+    </declare-styleable>
+</resources>
